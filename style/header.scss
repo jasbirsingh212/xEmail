@@ -1,0 +1,98 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border: 1px solid lightgray;
+    .name{
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        color: #5430b8;
+        h1{
+            font-size: 70px;
+            margin-left: 10px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        .name1{
+        h2{
+            margin-block-start: 30px;
+            font-size: 30px;
+            margin-block-end: 0px;
+        }
+        p{
+            margin-left: 8px;
+            margin-top: 0px;
+            font-size: 15px;
+        }
+    }
+        
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 20%;
+        
+        .bell{
+            color:rgb(231, 228, 228);
+            margin-right: 60px;
+        }
+
+        .mail{
+            color:rgb(231, 228, 228);
+        
+        }
+        h3{
+        margin: -8px 5px 5px 10px;
+        font-size: 28px;
+        color: lightgrey;
+        }
+        
+        p{
+            margin: 0px 5px 0px 26px;
+            color: lightgrey;
+        }
+
+        img{
+                height: 30px;
+                border-radius: 45%;
+            }
+            
+    }
+
+    
+}
+.search-container{
+    margin-block-start: 30px;
+    height: 40px;
+
+   form{
+
+        input[type = text]{
+            width: 300px;
+            height: 45px;
+            outline:none ;
+            border: none;
+            background-color: rgb(231, 228, 228);
+        }
+
+        .btn{
+            // margin-block-start: 5px;
+            // background: #5430b8;
+            // width: 50px;
+            // height: 41px;
+            // padding: 0px 5px 0px 5px;
+            // outline-color: #5430b8;
+            
+            border-radius: 4px;
+            background: #5430b8;
+            width: 60px;
+            height: 47px;
+            padding: 5px 5px 12px 5px;
+            outline-color: #5430b8;
+        }
+   }
+}

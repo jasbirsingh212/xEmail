@@ -1,0 +1,40 @@
+.sidenav{
+        color: white;
+    .dashboard{
+        border-bottom: 1px solid lightgrey;
+        display: flex;
+        align-items: center;
+        height: 33px;
+        margin-top: 8px;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            margin: 0px 0px 0px 20px;
+            color: white;
+        }
+    }
+
+    .email-section,.integration-section{
+        border-bottom: 1px solid lightgrey;
+        .integration-sub{
+            width: 70%;
+        }
+    .email-sub,.integration-sub{
+
+        .element{
+        display: flex;
+        align-items: center;
+        height: 33px;
+        margin-top: 8px;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            margin: 0px 0px 0px 20px;
+            color: lightslategrey
+        }
+    }       
+    }
+}
+
+        
+}

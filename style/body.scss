@@ -1,0 +1,14 @@
+.body{
+    width: 90%;
+    height: 580px;
+    display: flex;
+    border: 1px solid lightgray;
+    .sidenav{
+        width: 20%;
+        background-color:#5430b8;
+    }
+
+    .content{
+        width: 80%;
+    }
+}

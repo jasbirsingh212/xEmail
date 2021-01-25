@@ -1,0 +1,12 @@
+@import'header';
+@import'body';
+@import'content';
+@import'sideNav';
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:cursive;
+    margin-top: 20px;
+}
